@@ -1,0 +1,219 @@
+.wrapper {
+  width: 1400px;
+  margin: 0 auto;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+}
+.section {
+  width: 100%;
+  background-color: green;
+}
+.side {
+  display: flex;
+  color: white;
+}
+.left {
+  width: 50%;
+}
+.left img {
+  margin-left: 15%;
+}
+.left p {
+  margin-left: 15%;
+}
+.abc {
+  padding-top: 30px;
+  padding-bottom: 67px;
+}
+.right {
+  width: 50%;
+}
+.right img {
+  width: 85%;
+}
+.links {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: 25%;
+}
+.links h4{
+  margin: 35px;
+}
+.links button {
+  color: white;
+  background-color: rgb(47, 255, 57);
+  border-radius: 20px;
+  padding: 10px 22px;
+  margin: 0;
+}
+.section2 {
+  background-color: white;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-bottom: 30px;
+}
+.box1 {
+  width: 50%;
+}
+.box1 img {
+  width: 70%;
+  margin-left: 20%;
+}
+.box2 {
+  width: 50%;
+}
+.box2 img {
+  margin-left: 10%;
+  margin-bottom: 20px;
+}
+.box2 p {
+  margin-left: 10%;
+}
+.box3 {
+  width: 50%;
+}
+.box3 img {
+  width: 50%;
+  margin-left: 20%;
+  margin-bottom: 20px;
+}
+.box3 p {
+  margin-left: 20%;
+}
+.box4 {
+  width: 50%;
+}
+.a11 {
+  margin-left: 27%;
+  padding-bottom: 35px;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.section3 {
+  background-color: green;
+  width: 100%;
+}
+.a111 {
+  padding: 30px;
+  margin-left: 22%;
+}
+.quits {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
+  align-items: center;
+}
+.quit {
+  width: 20%;
+  color: white;
+  text-align: center;
+  justify-content: center;
+}
+.section4 {
+  background-color: blanchedalmond;
+  text-align: center;
+  padding-bottom: 55px;
+}
+.section4 img {
+  padding-top: 35px;
+  padding-bottom: 19px;
+}
+.tomon {
+  display: flex;
+  align-items: center;
+  background-color: chartreuse;
+  padding-bottom: 20px;
+}
+.chap {
+  width: 50%;
+}
+.chap img {
+  margin-left: 20%;
+  margin-bottom: 20px;
+}
+.chap p {
+  margin-left: 20%;
+}
+.ong {
+  width: 70%;
+  text-align: center;
+}
+.ong img {
+  width: 75%;
+  padding-top: 15%;
+  margin-right: 15%;
+}
+.section5 {
+  background-color: white;
+  padding-bottom: 50px;
+}
+.b111 {
+  text-align: center;
+  padding-top: 30px;
+}
+.qutilar {
+  display: flex;
+  padding-top: 20px;
+  /* text-align: center; */
+}
+.quti {
+  width: 23%;
+  padding-left: 35px;
+  padding-top: 35px;
+  border-radius: 6px;
+  transition: 0.3s;
+  display: block;
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+.quti:hover {
+  /* padding-top: 35px; */
+  transition: 0.5s;
+   box-shadow: 1px 0 10px 1px rgba(0, 0, 0, 0.925);
+
+}
+.quti li {
+  /* margin-top: 20px;
+  margin-left: 20px; */
+  /* padding: 20px; */
+  margin: 15px;
+}
+.section6 {
+  background-color: blanchedalmond;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.section6 p {
+  margin-top: 22px;
+}
+.uchlik {
+  display: flex;
+  align-items: center;
+}
+.uch img {
+  margin: 25px;
+}
+.section6 button {
+  color: white;
+  background-color: green;
+  border-radius: 20px;
+  padding: 15px 25px;
+}
+.section6 button:hover{
+  color: white;
+  background-color: red;
+  transition: 0.5s;
+}
